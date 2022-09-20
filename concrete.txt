@@ -1,0 +1,11 @@
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+#MaxThreadsPerHotkey 2
+Toggle = 0
+
+F4::
+Toggle := !Toggle
+If Toggle
+	Send, {LButton Down}{RButton Down}
+else
+	Send, {LButton Up}{RButton Up}
+return
