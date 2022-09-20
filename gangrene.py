@@ -17,5 +17,5 @@ async def setup():
     client.add_cog(Music(client))
 
 client.loop.create_task(setup())
-client.run("ODk0MDUwOTkwNTE5NjE1NTMw.YVkX3g.LrBIsrXGS9ZKUgRALGVxJaXDJ9Y")
+client.run("no token here bozo")
 
